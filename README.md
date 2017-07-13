@@ -13,9 +13,10 @@ in the worst case, there could be as many as 36 different sets
 of nucleic acid changes applied to the codon,
 each of which could be responsible.
 
-Here Oncokb is giving us amino acid replacements within a gene
+Here [Oncokb API](http://oncokb.org/api/v1/variants)
+ is giving us amino acid replacements within a gene
 and information on the consequences and we would like to find a way
-to link back to other variant sources which necessitates determining
+to link back to variant sources which necessitates determining
 the underlying nucleic changes to the codon producing the amino replacement.
 
 Since Oncokb gives a curated isoform and an offset we should be able to figure
@@ -38,8 +39,3 @@ Julia is still in beta which means breaking changes on new releases.
 So even if we decide it has really neat features we would like to use
 we should not begin adopting till after version 1.0, 
 which if road maps are to be believed won't happen before the end of this year.
-
-
- 
-
-http://oncokb.org/api/v1/variants
