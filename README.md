@@ -13,7 +13,7 @@ in the worst case, there could be as many as 36 different sets
 of nucleic acid changes applied to the codon,
 each of which could be responsible.
 
-Here [Oncokb API](http://oncokb.org/api/v1/variants)
+Here [Oncokb](http://oncokb.org) API for variants (lic. has been tightened down)
  is giving us amino acid replacements within a gene
 and information on the consequences and we would like to find a way
 to link back to variant sources which necessitates determining
